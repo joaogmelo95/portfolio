@@ -1,0 +1,44 @@
+body {
+    background-color: #001219;
+    color: white;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+h1, h3 {
+    color: #0a9396;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#sobre {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#foto-de-perfil {
+    border-radius: 50%;
+}
+
+li {
+    list-style-type: circle;
+}
+
+.li-orgulho {
+    font-size: 20px;
+}
+
+.button {
+    color: white;
+    background-color: #0a9396;
+    padding: 15px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px 0px;
+}
+
+.option-summary {
+    color: white;
+    text-decoration: none;
+}
