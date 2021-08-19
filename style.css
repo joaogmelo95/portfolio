@@ -1,18 +1,6 @@
 body {
-    background-color: #001219;
-    color: white;
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-}
-
-h1, h3 {
-    color: #0a9396;
-}
-
-h1 {
-    font-size: 50px;
-}
-
-#sobre {
+    background-color: #1B1B27;
+    color: #46BAA7;
     font-family: 'Space Grotesk', sans-serif;
 }
 
@@ -20,8 +8,20 @@ h1 {
     border-radius: 50%;
 }
 
+h1, h3 {
+    color: #6190D3;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+#sobre {
+    font-size: 15px;
+}
+
 li {
-    list-style-type: circle;
+    list-style-type: none;
 }
 
 .li-orgulho {
@@ -29,8 +29,8 @@ li {
 }
 
 .button {
-    color: white;
-    background-color: #0a9396;
+    color: #46BAA7;
+    background-color: #8B7EAD;
     padding: 15px 30px;
     border-radius: 15px;
     text-decoration: none;
@@ -39,6 +39,6 @@ li {
 }
 
 .option-summary {
-    color: white;
+    color: #46BAA7;
     text-decoration: none;
 }
