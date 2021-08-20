@@ -10,37 +10,50 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1 id="nome-completo">João Guilherme Vieira Melo</h1>
-    <img src="imagens/foto-perfil.png" alt="Foto de perfil" id="foto-de-perfil" width="200px">
-    <h2 id="sobre">Aluno da Trybe | Infelizmente, formado em Direito | Brasileiro, <em>recifense orgulhoso</em>.</h2>
-    <h3 id="habilidades">Habilidades profissionais</h3>
-    <ul>
-        <li>Oratória</li>
-        <li>Photoshop</li>
-        <li>Illustrator</li>
-        <li>Premiere</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Gestão de CRM</li>
-    </ul>
-    <h3 id="habilidades-orgulho">Habilidades das quais mais me orgulho</h3>
-    <ul>
-        <li class="li-orgulho"><strong>Lembrar de diálogos completos do filme Toy Story 1</strong></li>
-        <li class="li-orgulho">Tocar violão</li>
-        <li class="li-orgulho">Saber Bohemian Rapsody decorado</li>
-    </ul>
-    <a id="link-foto-de-perfil" class="button" href="#foto-de-perfil">Clique aqui para rever minha foto, por algum motivo</a>
-    <br>
-    <a id="link-blog" class="button" href="https://startupdareal.medium.com" target="_blank">Clique aqui para ir ao Medium do Startup da Real</a>
-    <h3>Sumário</h3>
-    <ul>
-        <li><a class="option-summary" href="#nome-completo">Nome completo</a></li>
-        <li><a class="option-summary" href="#foto-de-perfil">Foto de perfil</a></li>
-        <li><a class="option-summary" href="#sobre">Sobre</a></li>
-        <li><a class="option-summary" href="#habilidades">Habilidades profissionais</a></li>
-        <li><a class="option-summary" href="#habilidades-orgulho">Habilidades das quais mais me orgulho</a></li>
-        <li><a class="option-summary" href="#link-foto-de-perfil">Link para foto de perfil</a></li>
-        <li><a class="option-summary" href="#link-blog">Link para blog que gosto</a></li>
-    </ul>
+    <div class="header">
+        <h1 id="nome-completo">João Guilherme Vieira Melo</h1>
+        <div class="sobre">
+            <img src="imagens/foto-perfil.png" alt="Foto de perfil" id="foto-de-perfil">
+            <h2 id="sobre-texto">Aluno da Trybe | Brasileiro, <em>recifense orgulhoso</em>.</h2>
+        </div>
+    </div>
+    <div class="listas">
+        <div class="lista-habilidades-profissionais">
+            <h3 id="habilidades">Habilidades profissionais</h3>
+            <ul>
+                <li>Photoshop</li>
+                <li>Illustrator</li>
+                <li>Premiere</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Gestão de CRM</li>
+            </ul>
+        </div>
+        <div class="lista-orgulho">
+            <h3 id="habilidades-orgulho">Habilidades das quais mais me orgulho</h3>
+            <ul>
+                <li class="li-orgulho"><strong>Oratória</strong></li>
+                <li class="li-orgulho">Criatividade</li>
+                <li class="li-orgulho">Liderança</li>
+            </ul>
+        </div>
+    </div>
+    <div class="botoes">
+        <a id="link-foto-de-perfil" class="button" href="#foto-de-perfil">Voltar para foto</a>
+        <br>
+        <a id="link-blog" class="button" href="https://startupdareal.medium.com" target="_blank">Blog preferido</a>
+    </div>
+    <div class="listas">
+        <h3>Sumário</h3>
+        <ul>
+            <li><a class="option-summary" href="#nome-completo">Nome completo</a></li>
+            <li><a class="option-summary" href="#foto-de-perfil">Foto de perfil</a></li>
+            <li><a class="option-summary" href="#sobre">Sobre</a></li>
+            <li><a class="option-summary" href="#habilidades">Habilidades profissionais</a></li>
+            <li><a class="option-summary" href="#habilidades-orgulho">Habilidades das quais mais me orgulho</a></li>
+            <li><a class="option-summary" href="#link-foto-de-perfil">Link para foto de perfil</a></li>
+            <li><a class="option-summary" href="#link-blog">Link para blog que gosto</a></li>
+        </ul>
+    </div>
 </body>
 </html>

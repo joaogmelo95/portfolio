@@ -12,20 +12,50 @@ h1 {
     font-size: 50px;
 }
 
-#sobre {
+h2 {
+    font-size: 20px;
+}
+
+.sobre {
+    padding-left: 20px;
+    min-height: 210px;
+}
+
+#nome-completo {
+    text-align: center;
+}
+
+#sobre-texto {
     font-family: 'Space Grotesk', sans-serif;
+    position: absolute;
+    padding-top: 70px;
+    padding-left: 250px;
 }
 
 #foto-de-perfil {
+    height: 190px;
     border-radius: 50%;
+    float: left;
+    padding: 10px;
+    background-color: #0a9396;
+}
+
+.listas {
+    max-width: 60%;
+    padding: 30px 20px;
+    clear: both;
 }
 
 li {
-    list-style-type: circle;
+    list-style-type: none;
 }
 
 .li-orgulho {
     font-size: 20px;
+}
+
+.botoes {
+    padding-left: 20px;
 }
 
 .button {
@@ -35,10 +65,15 @@ li {
     border-radius: 15px;
     text-decoration: none;
     display: inline-block;
-    margin: 15px 0px;
+    margin: 20px 0px;
 }
 
 .option-summary {
     color: white;
     text-decoration: none;
+}
+
+li:nth-child(odd) {
+    font-style: italic;
+    list-style-type: disc;
 }
